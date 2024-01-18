@@ -2,19 +2,6 @@
 
 A social networking platform with automated content moderation and context-based authentication system.
 
-[Watch Demo](https://youtu.be/Tmncayg7FeU)
-
-![UI-community](https://raw.githubusercontent.com/nz-m/SocialEcho/main/resources/UI-community.png)
-
-## Table of Contents
-
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Technologies](#technologies)
-- [Schema Diagram](#schema-diagram)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [License](#license)
 
 ## Project Overview
 
@@ -82,20 +69,6 @@ There are three distinct user roles within the system:
 - Azure Blob Storage
 - Flask
 - Hugging Face Transformers
-
-
-## Schema Diagram
-
-![Schema Diagram](https://raw.githubusercontent.com/nz-m/SocialEcho/main/resources/Schema-Diagram.png)
-
-
-
-## Getting Started
-
-### Prerequisites
-
-Before running the application, make sure you have the following installed:
-
 - Node.js
 - MongoDB or MongoDB Atlas account
 
@@ -150,12 +123,6 @@ EMAIL=
 PASSWORD=
 EMAIL_SERVICE=
 ```
-
-For content moderation, you need the `PERSPECTIVE_API_KEY` and either the `INTERFACE_API_KEY` or `TEXTRAZOR_API_KEY`. Visit the following links to obtain the API keys:
-
-- [Perspective API](https://developers.perspectiveapi.com/s/docs-get-started)
-- [TextRazor API](https://www.textrazor.com/)
-- [Hugging Face Interface API](https://huggingface.co/facebook/bart-large-mnli)
 
 If you prefer, the Flask server can be run locally as an alternative to using the Hugging Face Interface API or TextRazor API. Refer to the `classifier_server` directory for more information.
 
