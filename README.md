@@ -72,40 +72,6 @@ There are three distinct user roles within the system:
 - Node.js
 - MongoDB or MongoDB Atlas account
 
-### Installation
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/nz-m/SocialEcho.git
-```
-2. Go to the project directory and install dependencies for both the client and server
-
-```bash
-cd client
-npm install
-```
-
-```bash
-cd server
-npm install
-```
-
-3. Create a `.env` file in both the `client` and `server` directories and add the environment variables as shown in the `.env.example` files.
-4. Start the server
-
-```bash
-cd server
-npm start
-```
-
-5. Start the client
-
-```bash
-cd client
-npm start
-```
-
 
 ### Configuration
 
@@ -139,11 +105,4 @@ The admin dashboard can be accessed at the `/admin` route. Use the `admin_tool.s
 ### Moderator
 
 Moderators have specific email domain (`@mod.socialecho.com`). When registering with an email from this domain, the user is automatically assigned the moderator role. Moderators can be assigned to different communities from the admin dashboard.
-
-#### Demo
-https://youtu.be/Tmncayg7FeU
-
-## License
-
-This project is licensed under the [MIT License](https://github.com/nz-m/SocialEcho/blob/main/LICENSE).
 
